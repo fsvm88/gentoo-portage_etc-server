@@ -1,0 +1,16 @@
+app-admin/shellinabox
+#app-admin/sshguard
+#app-admin/webalizer
+dev-python/pyinotify
+mail-filter/procmail
+mail-mta/postfix
+media-sound/teamspeak-server-bin
+net-analyzer/fail2ban
+#net-dns/bind
+net-ftp/pure-ftpd
+#net-irc/psybnc
+net-mail/dovecot
+net-misc/chrony
+net-proxy/dante
+#net-proxy/squid
+www-servers/nginx

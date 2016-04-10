@@ -1,0 +1,7 @@
+app-emulation/lxc
+dev-java/icedtea
+dev-util/crash
+media-sound/teamspeak-server-bin
+sci-misc/boinc
+sys-fs/bedup **
+sys-fs/btrfs-progs

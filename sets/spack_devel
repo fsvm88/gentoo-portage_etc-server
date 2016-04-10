@@ -1,0 +1,3 @@
+dev-python/django
+#dev-python/mysqlclient
+dev-python/psycopg:2

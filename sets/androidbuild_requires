@@ -1,0 +1,10 @@
+app-arch/lzop
+app-arch/zip
+dev-java/icedtea:7
+dev-libs/libxslt
+media-gfx/pngcrush
+media-libs/libsdl
+sys-fs/squashfs-tools
+sys-libs/zlib
+sys-process/schedtool
+x11-libs/wxGTK:2.8
