@@ -13,7 +13,7 @@ sys-fs/quota
 sys-fs/quotatool
 sys-fs/reiserfsprogs
 sys-fs/squashfs-tools
-sys-fs/xfsdump
-sys-fs/xfsprogs
+#sys-fs/xfsdump
+#sys-fs/xfsprogs
 #sys-fs/zfs
 #sys-fs/zfs-kmod
