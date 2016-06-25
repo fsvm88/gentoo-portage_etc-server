@@ -19,11 +19,11 @@
 <net-analyzer/hunt-1.6
 <net-analyzer/ntopng-2.1
 <net-libs/gnutls-3.4
+<net-p2p/bitcoin-cli-0.13
 <net-p2p/bitcoind-0.13
 <net-proxy/dante-1.5
 <sys-apps/cpuid-20151101
 <sys-apps/microcode-ctl-1.30
-<sys-apps/microcode-data-20151201
 <sys-apps/portage-2.2.29
 <sys-apps/texinfo-6.2
 <sys-block/thin-provisioning-tools-0.6
@@ -32,6 +32,7 @@
 <sys-devel/gcc-5.4
 <sys-devel/gettext-0.20
 <sys-devel/llvm-3.9
+<sys-firmware/intel-microcode-20151201
 <sys-fs/duperemove-0.11
 <sys-fs/lvm2-2.02.145-r3
 <sys-fs/quotatool-1.7
