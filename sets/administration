@@ -1,3 +1,4 @@
-app-portage/cpuinfo2cpuflags
+app-portage/cpuid2cpuflags
 dev-libs/libcgroup
 dev-python/pip
+sys-power/cpupower
