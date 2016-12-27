@@ -1,5 +1,6 @@
 #app-admin/sshguard
 #app-admin/webalizer
+app-crypt/certbot
 dev-python/pyinotify
 #mail-filter/procmail
 #mail-mta/postfix
