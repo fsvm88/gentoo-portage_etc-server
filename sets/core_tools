@@ -11,6 +11,7 @@ net-ftp/ncftp
 #sys-apps/blktool
 sys-apps/hdparm
 sys-apps/irqbalance
+sys-apps/iucode_tool
 sys-apps/less
 sys-apps/microcode-ctl
 sys-apps/mlocate
