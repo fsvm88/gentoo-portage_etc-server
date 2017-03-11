@@ -1,5 +1,5 @@
 app-emulation/lxc
-dev-java/icedtea
+dev-java/icedtea:8
 dev-util/crash
 media-sound/teamspeak-server-bin
 sci-misc/boinc

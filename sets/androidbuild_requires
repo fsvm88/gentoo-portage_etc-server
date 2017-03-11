@@ -1,6 +1,6 @@
 app-arch/lzop
 app-arch/zip
-dev-java/icedtea:7
+dev-java/icedtea:8
 dev-libs/libxslt
 media-gfx/pngcrush
 media-libs/libsdl
