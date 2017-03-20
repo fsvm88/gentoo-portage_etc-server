@@ -16,7 +16,7 @@ net-misc/chrony
 net-misc/iperf
 net-misc/jwhois
 net-misc/netkit-telnetd
-net-misc/tor
+net-vpn/tor
 net-proxy/tsocks
 sys-apps/ethtool
 sys-apps/iproute2
