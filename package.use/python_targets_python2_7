@@ -12,6 +12,7 @@ dev-python/ndg-httpsclient python_targets_python2_7
 dev-python/pbr python_targets_python2_7
 dev-python/pyasn1 python_targets_python2_7
 dev-python/pycparser python_targets_python2_7
+dev-python/py python_targets_python2_7
 dev-python/requests python_targets_python2_7
 dev-python/setuptools python_targets_python2_7
 dev-python/six python_targets_python2_7
@@ -21,3 +22,4 @@ dev-util/systemtap python_targets_python2_7
 dev-vcs/git python_targets_python2_7
 net-analyzer/nmap python_targets_python2_7
 sys-devel/llvm python_targets_python2_7
+virtual/python-ipaddress python_targets_python2_7
