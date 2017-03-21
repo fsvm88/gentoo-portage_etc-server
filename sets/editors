@@ -1,5 +1,4 @@
 app-editors/hexcurse
-#app-editors/hexedit
 app-editors/nano
 app-editors/vim
 app-text/dos2unix

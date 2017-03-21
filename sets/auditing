@@ -1,9 +1,5 @@
-
-#app-admin/bastille
 app-admin/logrotate
-#app-admin/logsentry
 app-admin/paxtest
 app-admin/syslog-ng
 app-forensics/rkhunter
-#net-analyzer/barnyard2
 sys-apps/gradm
