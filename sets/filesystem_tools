@@ -2,6 +2,7 @@ app-arch/hardlink
 app-crypt/md5deep
 app-misc/fdupes
 app-misc/symlinks
+net-fs/nfs-utils
 sys-apps/gptfdisk
 sys-fs/bedup
 sys-fs/btrfs-progs
