@@ -2,6 +2,8 @@ app-emulation/lxc
 dev-java/icedtea:8
 dev-util/crash
 media-sound/teamspeak-server-bin
+net-p2p/go-ethereum
 sci-misc/boinc
+sys-apps/portage
 sys-fs/bedup **
 sys-fs/btrfs-progs
