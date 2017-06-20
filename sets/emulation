@@ -1,4 +1,5 @@
 app-emulation/docker
+app-emulation/docker-machine
 app-emulation/libvirt
 app-emulation/virtualbox
 net-firewall/ebtables
