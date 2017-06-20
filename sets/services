@@ -1,8 +1,12 @@
 app-crypt/certbot
+app-crypt/certbot-nginx
 dev-cpp/sparsehash
 dev-db/mysql
+dev-db/postgresql
 dev-lang/php
+dev-python/git-python
 dev-python/pyinotify
+dev-python/sqlalchemy
 media-sound/teamspeak-server-bin
 net-analyzer/fail2ban
 net-ftp/pure-ftpd
@@ -15,6 +19,3 @@ net-proxy/dante
 sci-misc/boinc
 www-misc/shellinabox
 www-servers/nginx
-dev-db/postgresql
-dev-python/git-python
-dev-python/sqlalchemy
