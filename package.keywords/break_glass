@@ -1,4 +1,5 @@
 <app-admin/paxtest-1.0
+<app-arch/pbzip2-1.2
 <app-crypt/acme-1.0
 <app-crypt/certbot-1.0
 <app-crypt/certbot-nginx-0.16
@@ -31,4 +32,3 @@ net-vpn/wireguard **
 <sys-fs/quotatool-1.7
 <sys-kernel/linux-headers-4.10
 <sys-power/thermald-1.7
-<app-arch/pbzip2-1.2

@@ -1,13 +1,13 @@
 app-backup/btrbk
 app-emulation/lxc
 dev-java/icedtea:8
+dev-python/awscli
+dev-python/botocore
 dev-python/glacier-cmd **
+dev-python/s3transfer
 dev-util/crash
 media-sound/teamspeak-server-bin
 net-p2p/go-ethereum
 sci-misc/boinc
 sys-apps/portage
 sys-fs/btrfs-progs
-dev-python/awscli
-dev-python/botocore
-dev-python/s3transfer
