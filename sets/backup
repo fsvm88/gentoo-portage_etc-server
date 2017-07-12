@@ -1,1 +1,4 @@
 app-backup/btrbk
+dev-python/awscli
+dev-python/pyyaml # requirement for aws
+dev-python/glacier-cmd
