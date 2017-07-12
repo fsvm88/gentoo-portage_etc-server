@@ -31,3 +31,4 @@ net-vpn/wireguard **
 <sys-fs/quotatool-1.7
 <sys-kernel/linux-headers-4.10
 <sys-power/thermald-1.7
+<app-arch/pbzip2-1.2
