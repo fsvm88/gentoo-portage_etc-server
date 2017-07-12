@@ -4,7 +4,6 @@ app-misc/fdupes
 app-misc/symlinks
 net-fs/nfs-utils
 sys-apps/gptfdisk
-sys-fs/bedup
 sys-fs/btrfs-progs
 sys-fs/dosfstools
 sys-fs/duperemove
