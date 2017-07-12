@@ -19,3 +19,4 @@ net-proxy/dante
 sci-misc/boinc
 www-misc/shellinabox
 www-servers/nginx
+net-p2p/go-ethereum
