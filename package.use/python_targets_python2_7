@@ -1,6 +1,4 @@
 app-crypt/acme python_targets_python2_7
-app-crypt/certbot-nginx python_targets_python2_7
-app-crypt/certbot python_targets_python2_7
 app-emulation/qemu python_targets_python2_7
 app-emulation/virtualbox python_targets_python2_7
 app-text/asciidoc python_targets_python2_7
@@ -14,14 +12,17 @@ dev-python/cffi python_targets_python2_7
 dev-python/colorama python_targets_python2_7
 dev-python/cryptography python_targets_python2_7
 dev-python/docutils python_targets_python2_7
+dev-python/enum34 python_targets_python2_7
 dev-python/funcsigs python_targets_python2_7
 dev-python/futures python_targets_python2_7
 dev-python/gevent python_targets_python2_7
 dev-python/glacier-cmd python_targets_python2_7
 dev-python/greenlet python_targets_python2_7
 dev-python/idna python_targets_python2_7
+dev-python/ipaddress python_targets_python2_7
 dev-python/jmespath python_targets_python2_7
 dev-python/linecache2 python_targets_python2_7
+dev-python/mock python_targets_python2_7
 dev-python/namespace-zope python_targets_python2_7
 dev-python/ndg-httpsclient python_targets_python2_7
 dev-python/packaging python_targets_python2_7
@@ -32,6 +33,7 @@ dev-python/pycparser python_targets_python2_7
 dev-python/pygments python_targets_python2_7
 dev-python/pyparsing python_targets_python2_7
 dev-python/py python_targets_python2_7
+dev-python/pyrfc3339 python_targets_python2_7
 dev-python/python-dateutil python_targets_python2_7
 dev-python/pytz python_targets_python2_7
 dev-python/requests python_targets_python2_7
@@ -41,6 +43,7 @@ dev-python/setuptools python_targets_python2_7
 dev-python/six python_targets_python2_7
 dev-python/traceback2 python_targets_python2_7
 dev-python/zope-component python_targets_python2_7
+dev-python/zope-interface python_targets_python2_7
 dev-util/catalyst python_targets_python2_7
 dev-util/scons python_targets_python2_7
 dev-util/systemtap python_targets_python2_7
@@ -49,5 +52,6 @@ net-analyzer/nmap python_targets_python2_7
 net-libs/stem python_targets_python2_7
 net-misc/arm python_targets_python2_7
 sys-devel/llvm python_targets_python2_7
+virtual/python-funcsigs python_targets_python2_7
 virtual/python-greenlet python_targets_python2_7
 virtual/python-ipaddress python_targets_python2_7
