@@ -1,1 +1,2 @@
+sys-devel/clang default-compiler-rt
 sys-devel/llvm clang gold udis86

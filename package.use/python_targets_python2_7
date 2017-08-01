@@ -22,12 +22,14 @@ dev-python/idna python_targets_python2_7
 dev-python/ipaddress python_targets_python2_7
 dev-python/jmespath python_targets_python2_7
 dev-python/linecache2 python_targets_python2_7
+dev-python/lit python_targets_python2_7
 dev-python/mock python_targets_python2_7
 dev-python/namespace-zope python_targets_python2_7
 dev-python/ndg-httpsclient python_targets_python2_7
 dev-python/packaging python_targets_python2_7
 dev-python/pbr python_targets_python2_7
 dev-python/prettytable python_targets_python2_7
+dev-python/psutil python_targets_python2_7
 dev-python/pyasn1 python_targets_python2_7
 dev-python/pycparser python_targets_python2_7
 dev-python/pygments python_targets_python2_7
@@ -51,6 +53,7 @@ dev-vcs/git python_targets_python2_7
 net-analyzer/nmap python_targets_python2_7
 net-libs/stem python_targets_python2_7
 net-misc/arm python_targets_python2_7
+sys-devel/clang python_targets_python2_7
 sys-devel/llvm python_targets_python2_7
 virtual/python-funcsigs python_targets_python2_7
 virtual/python-greenlet python_targets_python2_7
