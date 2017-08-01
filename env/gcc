@@ -1,0 +1,7 @@
+iAR="/usr/bin/ar"
+CC="gcc"
+CFLAGS="-O3 -march=native -pipe -ggdb"
+CXXFLAGS="${CFLAGS}"
+CXX="g++"
+NM="/usr/bin/nm"
+RANLIB="/usr/bin/ranlib"
