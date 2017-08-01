@@ -5,11 +5,9 @@ net-analyzer/iftop
 net-analyzer/nettop
 net-analyzer/nmap
 net-analyzer/tcpdump
-net-analyzer/tcptraceroute
 net-analyzer/traceroute
 net-analyzer/traceroute-nanog
 net-dns/bind-tools
-net-dns/dnstop
 net-firewall/iptables
 net-ftp/lftp
 net-misc/arm
@@ -19,6 +17,5 @@ net-misc/jwhois
 net-misc/netkit-telnetd
 net-proxy/tsocks
 net-vpn/tor
-net-vpn/wireguard
 sys-apps/ethtool
 sys-apps/iproute2

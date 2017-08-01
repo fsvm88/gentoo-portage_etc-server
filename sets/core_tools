@@ -1,5 +1,3 @@
-app-admin/mcelog
-app-editors/nano
 app-misc/tmux
 dev-util/ccache
 dev-util/strace
@@ -7,7 +5,6 @@ net-ftp/ncftp
 sys-apps/hdparm
 sys-apps/irqbalance
 sys-apps/iucode_tool
-sys-apps/less
 sys-apps/microcode-ctl
 sys-apps/mlocate
 sys-apps/pciutils

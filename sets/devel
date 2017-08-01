@@ -1,0 +1,10 @@
+app-emulation/lxc
+dev-java/icedtea:8
+dev-libs/libyaml
+dev-python/django
+#dev-python/mysqlclient
+dev-python/mysql-connector-python
+dev-python/psycopg:2
+dev-python/pycrypto
+dev-python/virtualenv
+www-servers/uwsgi

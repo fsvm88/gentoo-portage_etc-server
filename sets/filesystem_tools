@@ -2,6 +2,7 @@ app-arch/hardlink
 app-crypt/md5deep
 app-misc/fdupes
 app-misc/symlinks
+app-misc/wipe
 net-fs/nfs-utils
 sys-apps/gptfdisk
 sys-fs/btrfs-progs
@@ -11,5 +12,4 @@ sys-fs/mdadm
 sys-fs/ncdu
 sys-fs/quota
 sys-fs/quotatool
-sys-fs/reiserfsprogs
 sys-fs/squashfs-tools

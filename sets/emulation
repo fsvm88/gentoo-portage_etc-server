@@ -1,5 +1,7 @@
 app-emulation/docker
 app-emulation/docker-machine
 app-emulation/libvirt
+app-emulation/qemu
 app-emulation/virtualbox
 net-firewall/ebtables
+net-misc/bridge-utils

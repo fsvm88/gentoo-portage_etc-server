@@ -1,6 +1,4 @@
 app-admin/pprocm
-dev-util/vmtouch
-net-analyzer/ntopng
 sys-apps/lm_sensors
 sys-power/powertop
 sys-power/thermald

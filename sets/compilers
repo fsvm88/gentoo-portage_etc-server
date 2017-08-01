@@ -1,0 +1,4 @@
+dev-lang/rust
+dev-util/cargo
+sys-devel/clang
+sys-devel/lld

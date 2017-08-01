@@ -1,5 +1,2 @@
 app-admin/logrotate
-app-admin/paxtest
 app-admin/syslog-ng
-app-forensics/rkhunter
-sys-apps/gradm
