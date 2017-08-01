@@ -8,7 +8,7 @@ diff -Nuar cfe-4.0.0.src.orig/lib/Driver/ToolChains.cpp cfe-4.0.0.src/lib/Driver
 +unsigned Linux::GetDefaultStackProtectorLevel(bool KernelOrKext) const {
 +  StringRef VendorName = Linux::getTriple().getVendorName();
 +  if (VendorName.compare("gentoo") == 0)
-+    return 2;
++    return 3;
 +  return 1;
 +}
 +
