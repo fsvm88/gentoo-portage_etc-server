@@ -1,0 +1,8 @@
+app-text/ghostscript-gpl tiff
+dev-libs/glib utils
+dev-libs/gobject-introspection cairo
+dev-python/pillow tiff
+media-gfx/imagemagick corefonts svg
+media-libs/libepoxy X
+virtual/imagemagick-tools svg
+x11-base/xorg-server glamor xvfb
