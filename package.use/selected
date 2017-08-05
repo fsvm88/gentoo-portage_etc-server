@@ -14,7 +14,6 @@ net-proxy/tsocks tordns
 net-vpn/openvpn inotify iproute2 lz4
 net-vpn/tor tor-hardening transparent-proxy stats
 sys-boot/grub device-mapper
-sys-devel/clang default-compiler-rt
 sys-devel/llvm clang gold udis86
 sys-firmware/intel-microcode monolithic
 sys-kernel/genkernel-next mdadm
