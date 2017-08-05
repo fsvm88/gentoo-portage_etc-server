@@ -1,0 +1,27 @@
+app-emulation/qemu spice
+app-eselect/eselect-php fpm
+app-text/ghostscript-gpl cups
+dev-db/postgresql -ldap threads
+dev-db/sqlite secure-delete
+dev-lang/php bcmath calendar curlwrappers filter fpm gmp hash json mhash mysqlnd pdo sharedext soap simplexml wddx xmlreader xmlwriter xsl embed
+dev-lang/python sqlite
+dev-libs/boost python
+dev-libs/leveldb -snappy
+dev-libs/libpcre jit
+dev-util/google-perftools largepages
+dev-vcs/git subversion
+dev-vcs/subversion -dso
+mail-filter/procmail mbox
+mail-mta/postfix mbox
+media-libs/libpng apng
+media-libs/libsdl X
+# move app-admin/eselect-php app-eselect/eselect-php
+# move dev-db/postgresql-base dev-db/postgresql
+net-dns/dnsmasq script
+net-misc/curl nss libssh2 -gnutls
+net-misc/iputils arping clockdiff rarpd tracepath
+net-misc/openssh -ldap
+sys-devel/gcc fortran graphite lto
+sys-fs/quota netlink
+sys-libs/libseccomp static-libs
+sys-libs/ncurses tinfo

@@ -1,2 +1,0 @@
-net-p2p/bitcoin-cli -ljr
-net-p2p/bitcoind bitcoin_policy_rbf -ljr wallet

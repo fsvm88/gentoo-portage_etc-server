@@ -1,1 +1,0 @@
-www-servers/uwsgi python python_asyncio python_gevent -uwsgi_plugins_rsyslog

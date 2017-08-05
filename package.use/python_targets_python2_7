@@ -1,6 +1,7 @@
 app-crypt/acme python_targets_python2_7
 app-emulation/qemu python_targets_python2_7
 app-emulation/virtualbox python_targets_python2_7
+app-text/asciidoc python_single_target_python2_7
 app-text/asciidoc python_targets_python2_7
 dev-libs/gobject-introspection python_targets_python2_7
 dev-python/appdirs python_targets_python2_7

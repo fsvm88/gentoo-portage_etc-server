@@ -1,2 +1,0 @@
-dev-db/postgresql -ldap threads
-# move dev-db/postgresql-base dev-db/postgresql
