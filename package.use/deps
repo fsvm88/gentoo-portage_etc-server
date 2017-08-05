@@ -15,8 +15,6 @@ mail-filter/procmail mbox
 mail-mta/postfix mbox
 media-libs/libpng apng
 media-libs/libsdl X
-# move app-admin/eselect-php app-eselect/eselect-php
-# move dev-db/postgresql-base dev-db/postgresql
 net-dns/dnsmasq script
 net-misc/curl nss libssh2 -gnutls
 net-misc/iputils arping clockdiff rarpd tracepath
@@ -24,4 +22,5 @@ net-misc/openssh -ldap
 sys-devel/gcc fortran graphite lto
 sys-fs/quota netlink
 sys-libs/libseccomp static-libs
+sys-libs/libunwind libatomic
 sys-libs/ncurses tinfo
