@@ -1,4 +1,4 @@
-iAR="/usr/bin/ar"
+AR="/usr/bin/ar"
 CC="gcc"
 CFLAGS="-O3 -march=native -pipe -ggdb -fstack-protector-all"
 CXXFLAGS="${CFLAGS}"
