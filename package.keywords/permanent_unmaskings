@@ -8,6 +8,7 @@ dev-python/s3transfer
 dev-util/crash
 media-sound/teamspeak-server-bin
 net-p2p/go-ethereum
+net-p2p/gridcoin
 sci-misc/boinc
 sys-apps/portage
 sys-fs/btrfs-progs
