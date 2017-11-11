@@ -8,9 +8,11 @@ dev-lang/python sqlite
 dev-libs/boost python
 dev-libs/leveldb -snappy
 dev-libs/libpcre jit
+dev-libs/libusb udev
 dev-util/google-perftools largepages
 dev-vcs/git subversion
 dev-vcs/subversion -dso
+dev-vcs/subversion perl
 mail-filter/procmail mbox
 mail-mta/postfix mbox
 media-libs/libpng apng
@@ -24,3 +26,4 @@ sys-fs/quota netlink
 sys-libs/libseccomp static-libs
 sys-libs/libunwind libatomic
 sys-libs/ncurses tinfo
+virtual/libusb udev

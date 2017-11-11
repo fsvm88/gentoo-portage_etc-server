@@ -35,6 +35,7 @@ dev-python/process-tests python_targets_python2_7
 dev-python/pyasn1-modules python_targets_python2_7
 dev-python/PyContracts python_targets_python2_7
 dev-python/pyflakes python_targets_python2_7
+dev-python/pyopenssl python_targets_python2_7
 dev-python/pytest-capturelog python_targets_python2_7
 dev-python/pytest-cov python_targets_python2_7
 dev-python/pytest python_targets_python2_7
@@ -58,6 +59,7 @@ dev-python/tox python_targets_python2_7
 dev-python/twisted-core python_targets_python2_7
 dev-python/typing python_targets_python2_7
 dev-python/unittest2 python_targets_python2_7
+dev-python/urllib3 python_targets_python2_7
 dev-python/vcversioner python_targets_python2_7
 dev-python/virtualenv python_targets_python2_7
 dev-python/webcolors python_targets_python2_7

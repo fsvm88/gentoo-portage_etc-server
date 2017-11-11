@@ -4,5 +4,6 @@ dev-libs/gobject-introspection cairo
 dev-python/pillow tiff
 media-gfx/imagemagick corefonts svg
 media-libs/libepoxy X
+net-misc/curl kerberos
 virtual/imagemagick-tools svg
 x11-base/xorg-server glamor xvfb
