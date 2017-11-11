@@ -3,10 +3,9 @@ app-emulation/lxc
 dev-java/icedtea:8
 dev-python/awscli
 dev-python/botocore
-dev-python/glacier-cmd **
-dev-python/s3transfer
 dev-util/crash
 media-sound/teamspeak-server-bin
+net-misc/s3cmd
 net-p2p/go-ethereum
 net-p2p/gridcoin
 sci-misc/boinc
