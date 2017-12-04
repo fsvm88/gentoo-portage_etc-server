@@ -7,4 +7,5 @@ dev-python/mysql-connector-python
 dev-python/psycopg:2
 dev-python/pycrypto
 dev-python/virtualenv
+dev-python/wheel
 www-servers/uwsgi
