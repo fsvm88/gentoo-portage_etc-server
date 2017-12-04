@@ -47,7 +47,9 @@ dev-python/python-dateutil python_targets_python2_7
 dev-python/python-magic python_targets_python2_7
 dev-python/pytz python_targets_python2_7
 dev-python/pyyaml python_targets_python2_7
+dev-python/regex python_targets_python2_7
 dev-python/requests python_targets_python2_7
+dev-python/rfc3987 python_targets_python2_7
 dev-python/rsa python_targets_python2_7
 dev-python/s3transfer python_targets_python2_7
 dev-python/setuptools python_targets_python2_7
@@ -62,7 +64,6 @@ dev-util/systemtap python_targets_python2_7
 dev-vcs/git python_targets_python2_7
 net-analyzer/nmap python_targets_python2_7
 net-libs/stem python_targets_python2_7
-net-misc/arm python_targets_python2_7
 net-misc/s3cmd python_targets_python2_7
 sys-devel/clang python_targets_python2_7
 sys-devel/llvm python_targets_python2_7
