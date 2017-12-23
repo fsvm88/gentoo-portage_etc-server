@@ -4,6 +4,7 @@ dev-libs/libyaml
 dev-python/django
 #dev-python/mysqlclient
 dev-python/mysql-connector-python
+dev-python/neo4j-python-driver
 dev-python/psycopg:2
 dev-python/pycrypto
 dev-python/virtualenv
