@@ -44,6 +44,7 @@ dev-python/py python_targets_python2_7
 dev-python/pyrfc3339 python_targets_python2_7
 dev-python/PySocks python_targets_python2_7
 dev-python/python-dateutil python_targets_python2_7
+dev-python/python-gflags python_targets_python2_7
 dev-python/python-magic python_targets_python2_7
 dev-python/pytz python_targets_python2_7
 dev-python/pyyaml python_targets_python2_7

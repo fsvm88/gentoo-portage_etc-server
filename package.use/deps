@@ -21,6 +21,7 @@ net-dns/dnsmasq script
 net-misc/curl nss libssh2 -gnutls
 net-misc/iputils arping clockdiff rarpd tracepath
 net-misc/openssh -ldap
+net-p2p/bitcoin-cli knots
 sys-devel/gcc fortran graphite lto
 sys-fs/quota netlink
 sys-libs/libseccomp static-libs

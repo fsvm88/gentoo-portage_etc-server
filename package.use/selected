@@ -6,10 +6,11 @@ app-portage/layman git subversion
 dev-db/mysql -berkdb
 dev-lang/rust clang
 dev-python/zobcs mysql
+dev-util/strace -unwind
 net-analyzer/nmap ncat ndiff nmap-update nping
 net-fs/nfs-utils nfsdcld nfsv41
 net-mail/dovecot mbox managesieve sdbox sieve
-net-p2p/bitcoind addrindex bitcoin_policy_cpfp bitcoin_policy_dcmp bitcoin_policy_rbf bitcoin_policy_spamfilter ljr wallet
+net-p2p/bitcoind addrindex bitcoin_policy_cpfp bitcoin_policy_dcmp bitcoin_policy_rbf bitcoin_policy_spamfilter ljr knots wallet
 net-p2p/go-ethereum evm
 net-proxy/tsocks tordns
 net-vpn/openvpn inotify iproute2 lz4
@@ -21,4 +22,4 @@ sys-kernel/genkernel-next mdadm
 sys-process/htop oom
 sys-process/lsof rpc
 www-servers/nginx aio libatomic pcre-jit
-www-servers/uwsgi python python_asyncio python_gevent -uwsgi_plugins_rsyslog
+www-servers/uwsgi python python_gevent -uwsgi_plugins_rsyslog
