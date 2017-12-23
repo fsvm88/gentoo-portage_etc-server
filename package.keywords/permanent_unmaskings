@@ -3,9 +3,13 @@ app-emulation/lxc
 dev-java/icedtea:8
 dev-python/awscli
 dev-python/botocore
+dev-python/neo4j-python-driver
 dev-util/crash
 media-sound/teamspeak-server-bin
+net-analyzer/zmap
 net-misc/s3cmd
+net-p2p/bitcoin-cli
+net-p2p/bitcoind
 net-p2p/go-ethereum
 sci-misc/boinc
 sys-apps/portage
