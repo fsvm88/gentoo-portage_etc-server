@@ -1,7 +1,8 @@
 app-emulation/lxc
+dev-db/redis
 dev-java/icedtea:8
 dev-libs/libyaml
-dev-python/django
+dev-php/pecl-redis
 #dev-python/mysqlclient
 dev-python/mysql-connector-python
 dev-python/neo4j-python-driver
@@ -9,4 +10,3 @@ dev-python/psycopg:2
 dev-python/pycrypto
 dev-python/virtualenv
 dev-python/wheel
-www-servers/uwsgi
