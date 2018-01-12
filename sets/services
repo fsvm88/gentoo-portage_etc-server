@@ -9,7 +9,6 @@ dev-python/pyinotify
 dev-python/sqlalchemy
 media-sound/teamspeak-server-bin
 net-analyzer/fail2ban
-net-ftp/pure-ftpd
 net-irc/weechat
 net-misc/chrony
 net-p2p/bitcoin-cli
