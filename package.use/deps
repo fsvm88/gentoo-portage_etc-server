@@ -5,6 +5,7 @@ dev-db/postgresql -ldap threads
 dev-db/sqlite secure-delete
 dev-lang/php bcmath calendar curlwrappers filter fpm gmp hash json mhash mysqlnd pdo sharedext soap simplexml wddx xmlreader xmlwriter xsl embed
 dev-lang/python sqlite
+dev-lang/rust libcxx
 dev-libs/boost python
 dev-libs/leveldb -snappy
 dev-libs/libpcre jit
