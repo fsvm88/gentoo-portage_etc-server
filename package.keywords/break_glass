@@ -8,7 +8,7 @@
 <app-emulation/virtualbox-5.2
 <app-emulation/virtualbox-modules-5.2
 <app-misc/crunch-3.7
-<app-portage/cpuid2cpuflags-5
+<app-portage/cpuid2cpuflags-6
 <dev-db/postgresql-10.2
 <dev-db/redis-4.1
 <dev-lang/php-7.2.2
