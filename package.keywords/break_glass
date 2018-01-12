@@ -10,11 +10,14 @@
 <app-misc/crunch-3.7
 <app-portage/cpuid2cpuflags-5
 <dev-db/postgresql-10.2
+<dev-db/redis-4.1
+<dev-lang/php-7.2.2
 <dev-libs/isl-0.17
-<dev-python/django-1.12
+<dev-php/pecl-redis-3.2
 <dev-python/lit-4.1
 <dev-python/mysql-connector-python-2.2
 <dev-python/pandas-0.21
+<dev-python/s3transfer-0.2
 <dev-python/xarray-1.0
 <dev-util/kbuild-0.2
 <dev-util/strace-4.21
@@ -22,6 +25,7 @@
 <net-analyzer/nmap-7.70
 <net-analyzer/zmap-2.2
 <net-fs/nfs-utils-2.2
+<net-irc/weechat-2.1
 <net-libs/stem-1.7
 <net-misc/nyx-2.5
 <sys-apps/microcode-ctl-1.30
@@ -41,6 +45,8 @@
 <sys-kernel/linux-headers-4.10
 <sys-libs/compiler-rt-5.1
 <sys-libs/compiler-rt-sanitizers-5.1
+<sys-libs/libcxx-6
+<sys-libs/libcxxabi-6
 <sys-libs/libomp-5.1
 <sys-power/thermald-1.7
 <sys-process/criu-3.7
