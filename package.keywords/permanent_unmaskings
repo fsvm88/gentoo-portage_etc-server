@@ -6,7 +6,6 @@ dev-php/composer
 dev-python/awscli
 dev-python/botocore
 dev-python/neo4j-python-driver
-dev-util/crash
 media-sound/teamspeak-server-bin
 net-analyzer/zmap
 net-misc/s3cmd
