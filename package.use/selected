@@ -11,6 +11,7 @@ dev-util/systemtap libvirt
 net-analyzer/nmap ncat ndiff nmap-update nping
 net-firewall/iptables nftables
 net-fs/nfs-utils nfsdcld nfsv41
+net-libs/nodejs icu inspector systemtap
 net-mail/dovecot mbox managesieve sdbox sieve
 net-p2p/bitcoind addrindex bitcoin_policy_cpfp bitcoin_policy_dcmp bitcoin_policy_rbf bitcoin_policy_spamfilter ljr knots wallet
 net-p2p/go-ethereum evm
