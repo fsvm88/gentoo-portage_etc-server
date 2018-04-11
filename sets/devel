@@ -1,8 +1,12 @@
 app-emulation/lxc
+app-portage/eclass-manpages
+dev-db/arangodb3
 dev-db/redis
 dev-java/icedtea:8
 dev-libs/libyaml
+dev-php/composer
 dev-php/pecl-redis
+dev-python/lxml
 #dev-python/mysqlclient
 dev-python/mysql-connector-python
 dev-python/neo4j-python-driver
@@ -10,3 +14,7 @@ dev-python/psycopg:2
 dev-python/pycrypto
 dev-python/virtualenv
 dev-python/wheel
+dev-util/perf
+net-libs/nodejs
+sys-devel/gdb
+www-client/pybugz
