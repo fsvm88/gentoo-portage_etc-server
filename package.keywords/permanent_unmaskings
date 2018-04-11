@@ -1,6 +1,8 @@
 app-backup/btrbk
 app-emulation/lxc
+dev-db/arangodb3
 dev-java/icedtea:8
+dev-php/composer
 dev-python/awscli
 dev-python/botocore
 dev-python/neo4j-python-driver
