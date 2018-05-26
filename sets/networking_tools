@@ -15,6 +15,7 @@ net-misc/iperf
 net-misc/jwhois
 net-misc/netkit-telnetd
 net-misc/nyx
+net-misc/whois
 net-proxy/tsocks
 net-vpn/tor
 sys-apps/ethtool
