@@ -21,7 +21,7 @@ net-vpn/tor tor-hardening transparent-proxy stats
 sys-apps/smartmontools update_drivedb
 sys-boot/grub device-mapper
 sys-devel/llvm clang gold udis86
-sys-firmware/intel-microcode monolithic
+sys-firmware/intel-microcode hostonly monolithic
 sys-kernel/genkernel-next mdadm
 sys-process/htop oom
 sys-process/lsof rpc

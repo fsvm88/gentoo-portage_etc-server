@@ -1,4 +1,5 @@
 app-crypt/certbot
+app-crypt/certbot-dns-route53
 app-crypt/certbot-nginx
 dev-cpp/sparsehash
 dev-db/mysql
@@ -7,7 +8,7 @@ dev-lang/php
 dev-python/git-python
 dev-python/pyinotify
 dev-python/sqlalchemy
-media-sound/teamspeak-server-bin
+media-sound/teamspeak-server
 net-irc/weechat
 net-misc/chrony
 net-p2p/bitcoin-cli
