@@ -1,5 +1,4 @@
 app-backup/btrbk
-app-emulation/lxc
 dev-db/arangodb3
 dev-java/icedtea:8
 dev-php/composer
@@ -13,3 +12,4 @@ net-p2p/go-ethereum
 sci-misc/boinc
 sys-apps/portage
 sys-fs/btrfs-progs
+www-servers/nginx

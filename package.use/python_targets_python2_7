@@ -15,6 +15,7 @@ dev-python/cffi python_targets_python2_7
 dev-python/chardet python_targets_python2_7
 dev-python/colorama python_targets_python2_7
 dev-python/configargparse python_targets_python2_7
+dev-python/configparser python_targets_python2_7
 dev-python/cryptography python_targets_python2_7
 dev-python/docutils python_targets_python2_7
 dev-python/enum34 python_targets_python2_7
@@ -37,6 +38,7 @@ dev-python/ply python_targets_python2_7
 dev-python/prettytable python_targets_python2_7
 dev-python/psutil python_targets_python2_7
 dev-python/pyasn1 python_targets_python2_7
+dev-python/pycodestyle python_targets_python2_7
 dev-python/pycparser python_targets_python2_7
 dev-python/pygments python_targets_python2_7
 dev-python/pyparsing python_targets_python2_7

@@ -1,13 +1,10 @@
 <app-arch/pbzip2-1.2
-<app-crypt/acme-0.26
-<app-crypt/certbot-0.26
 <app-crypt/certbot-dns-route53-0.26
-<app-crypt/certbot-nginx-0.26
 <app-emulation/docker-machine-0.14
-<app-emulation/lxc-templates-3.1
-<app-emulation/virtualbox-5.2.13
-<app-emulation/virtualbox-modules-5.2.13
+<app-emulation/virtualbox-5.2.17
+<app-emulation/virtualbox-modules-5.2.17
 <app-misc/crunch-3.7
+<app-portage/eix-0.34
 <dev-lang/php-7.3
 <dev-libs/isl-0.17
 <dev-libs/mpc-1.2
@@ -28,7 +25,9 @@
 <dev-php/symfony-filesystem-3.3
 <dev-php/symfony-finder-3.3
 <dev-php/symfony-process-3.3
+<dev-python/astroid-1.7
 <dev-python/mysql-connector-python-2.2
+<dev-python/pylint-1.9
 <dev-python/s3transfer-0.2
 <dev-util/kbuild-0.2
 <dev-util/lldb-7
