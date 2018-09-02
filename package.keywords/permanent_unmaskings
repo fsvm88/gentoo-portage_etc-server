@@ -13,3 +13,4 @@ sci-misc/boinc
 sys-apps/portage
 sys-fs/btrfs-progs
 www-servers/nginx
+net-vpn/tor
