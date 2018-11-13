@@ -1,6 +1,8 @@
+app-admin/apache-tools
 app-crypt/certbot
 app-crypt/certbot-dns-route53
 app-crypt/certbot-nginx
+app-crypt/certbot-plugin-gandi
 dev-cpp/sparsehash
 dev-db/mysql
 dev-db/postgresql
@@ -19,3 +21,4 @@ net-proxy/dante
 sci-misc/boinc
 www-misc/shellinabox
 www-servers/nginx
+www-servers/uwsgi

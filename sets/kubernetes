@@ -2,8 +2,8 @@ app-admin/kube-bench
 app-admin/kubectx
 sys-cluster/kube-apiserver
 sys-cluster/kube-controller-manager
-sys-cluster/kube-proxy
-sys-cluster/kube-scheduler
 sys-cluster/kubectl
 sys-cluster/kubelet
+sys-cluster/kube-proxy
+sys-cluster/kube-scheduler
 sys-cluster/minikube

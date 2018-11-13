@@ -1,4 +1,3 @@
 app-backup/btrbk
 dev-python/awscli
-dev-python/pyyaml # requirement for aws
 net-misc/s3cmd
