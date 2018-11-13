@@ -9,8 +9,14 @@ net-analyzer/zmap
 net-p2p/bitcoin-cli
 net-p2p/bitcoind
 net-p2p/go-ethereum
+net-vpn/tor
 sci-misc/boinc
 sys-apps/portage
+sys-cluster/kube-apiserver
+sys-cluster/kube-controller-manager
+sys-cluster/kubectl
+sys-cluster/kubelet
+sys-cluster/kube-proxy
+sys-cluster/kube-scheduler
 sys-fs/btrfs-progs
 www-servers/nginx
-net-vpn/tor
