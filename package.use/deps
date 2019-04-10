@@ -1,19 +1,19 @@
 app-emulation/qemu spice
+app-emulation/virtualbox opengl
 app-eselect/eselect-php fpm
 app-text/ghostscript-gpl cups
 dev-db/postgresql -ldap threads
 dev-db/sqlite secure-delete
-dev-lang/php bcmath calendar curlwrappers filter fpm gmp hash json mhash mysqlnd pdo sharedext soap simplexml wddx xmlreader xmlwriter xsl embed
+dev-lang/php bcmath calendar curlwrappers filter fpm gmp hash json mhash mysqli pdo sharedext soap simplexml wddx xmlreader xmlwriter xsl embed
 dev-lang/python sqlite
-dev-lang/rust libcxx
+dev-lang/rust clippy rls rustfmt -system-llvm
 dev-libs/boost python
 dev-libs/leveldb -snappy
 dev-libs/libpcre jit
 dev-libs/libusb udev
 dev-util/google-perftools largepages
 dev-vcs/git subversion
-dev-vcs/subversion -dso
-dev-vcs/subversion perl
+dev-vcs/subversion perl -dso
 mail-filter/procmail mbox
 mail-mta/postfix mbox
 media-libs/libpng apng
@@ -24,6 +24,7 @@ net-misc/iputils arping clockdiff rarpd tracepath
 net-misc/openssh -ldap
 net-p2p/bitcoin-cli knots
 sys-boot/grub mount
+sys-devel/binutils default-gold
 sys-devel/clang-runtime crt libcxx
 sys-devel/gcc fortran graphite lto
 sys-fs/quota netlink
