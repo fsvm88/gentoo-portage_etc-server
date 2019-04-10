@@ -1,5 +1,4 @@
 dev-lang/rust
-dev-util/cargo
 dev-util/lldb
 sys-devel/clang
 sys-devel/lld

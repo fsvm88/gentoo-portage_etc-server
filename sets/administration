@@ -1,6 +1,8 @@
+app-admin/eclean-kernel
 app-crypt/gentoo-keys
 app-portage/cpuid2cpuflags
 dev-libs/libcgroup
 dev-python/pip
 sys-apps/lshw
+sys-apps/ripgrep
 sys-power/cpupower

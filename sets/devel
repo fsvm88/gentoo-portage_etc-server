@@ -1,5 +1,5 @@
+app-doc/eclass-manpages
 app-emulation/lxc
-app-portage/eclass-manpages
 dev-db/arangodb3
 dev-db/redis
 dev-java/icedtea:8
@@ -17,6 +17,7 @@ dev-python/pytest
 dev-python/virtualenv
 dev-python/wheel
 dev-util/perf
+# move app-portage/eclass-manpages app-doc/eclass-manpages
 net-libs/nodejs
 sys-devel/gdb
 www-client/pybugz
