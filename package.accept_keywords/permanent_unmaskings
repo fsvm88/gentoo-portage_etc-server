@@ -1,13 +1,11 @@
 app-backup/btrbk
-dev-db/arangodb3
 dev-java/icedtea:8
 dev-php/composer
 dev-python/awscli
 dev-python/neo4j-python-driver
-media-sound/teamspeak-server
 net-analyzer/zmap
+net-misc/rclone
 net-p2p/bitcoin-cli
-net-p2p/bitcoind
 net-p2p/go-ethereum
 net-vpn/tor
 sci-misc/boinc
