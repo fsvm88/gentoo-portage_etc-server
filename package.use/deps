@@ -2,7 +2,7 @@ app-emulation/qemu spice
 app-emulation/virtualbox opengl
 app-eselect/eselect-php fpm
 app-text/ghostscript-gpl cups
-dev-db/postgresql -ldap threads
+dev-db/postgresql -ldap llvm threads
 dev-db/sqlite secure-delete
 dev-lang/php bcmath calendar curlwrappers filter fpm gmp hash json mhash mysqli pdo sharedext soap simplexml wddx xmlreader xmlwriter xsl embed
 dev-lang/python sqlite
@@ -23,8 +23,8 @@ net-misc/curl nss libssh2 -gnutls
 net-misc/iputils arping clockdiff rarpd tracepath
 net-misc/openssh -ldap
 net-p2p/bitcoin-cli knots
+sys-boot/grub libzfs
 sys-boot/grub mount
-sys-devel/binutils default-gold
 sys-devel/clang-runtime crt libcxx
 sys-devel/gcc fortran graphite lto
 sys-fs/quota netlink

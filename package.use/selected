@@ -6,6 +6,7 @@ app-portage/layman git subversion
 dev-db/mysql -berkdb
 dev-lang/rust clang
 dev-python/zobcs mysql
+dev-util/catalyst ccache system-bootloader
 dev-util/strace -unwind
 dev-util/systemtap libvirt
 net-analyzer/nmap ncat ndiff nmap-update nping
