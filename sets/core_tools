@@ -13,6 +13,7 @@ sys-boot/grub
 sys-devel/bc
 sys-firmware/intel-microcode
 sys-kernel/genkernel-next
+sys-kernel/linux-firmware
 sys-process/fcron
 sys-process/htop
 sys-process/iotop

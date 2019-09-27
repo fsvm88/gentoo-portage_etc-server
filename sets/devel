@@ -7,7 +7,6 @@ dev-libs/libyaml
 dev-php/composer
 dev-php/pecl-redis
 dev-python/lxml
-#dev-python/mysqlclient
 dev-python/mysql-connector-python
 dev-python/neo4j-python-driver
 dev-python/psycopg:2
@@ -17,7 +16,5 @@ dev-python/pytest
 dev-python/virtualenv
 dev-python/wheel
 dev-util/perf
-# move app-portage/eclass-manpages app-doc/eclass-manpages
-net-libs/nodejs
 sys-devel/gdb
 www-client/pybugz

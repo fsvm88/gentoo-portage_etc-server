@@ -2,3 +2,4 @@ app-backup/btrbk
 dev-python/awscli
 net-misc/rclone
 net-misc/s3cmd
+sys-fs/zfs-auto-snapshot
