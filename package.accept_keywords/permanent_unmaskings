@@ -1,8 +1,3 @@
-app-backup/btrbk
-dev-java/icedtea:8
-dev-php/composer
-dev-python/awscli
-dev-python/neo4j-python-driver
 net-analyzer/zmap
 net-misc/rclone
 net-p2p/bitcoin-cli
@@ -16,5 +11,3 @@ sys-cluster/kubectl
 sys-cluster/kubelet
 sys-cluster/kube-proxy
 sys-cluster/kube-scheduler
-sys-fs/btrfs-progs
-www-servers/nginx

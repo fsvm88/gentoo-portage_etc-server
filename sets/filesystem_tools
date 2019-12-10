@@ -5,7 +5,6 @@ app-misc/symlinks
 app-misc/wipe
 net-fs/nfs-utils
 sys-apps/gptfdisk
-sys-fs/btrfs-progs
 sys-fs/dosfstools
 sys-fs/duperemove
 sys-fs/mdadm

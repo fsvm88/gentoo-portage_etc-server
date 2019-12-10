@@ -24,7 +24,6 @@ sys-boot/grub device-mapper
 sys-devel/clang default-compiler-rt default-libcxx
 sys-devel/llvm clang gold udis86
 sys-firmware/intel-microcode hostonly monolithic
-sys-kernel/genkernel-next mdadm
 sys-process/htop oom
 sys-process/lsof rpc
 www-servers/nginx aio libatomic pcre-jit
