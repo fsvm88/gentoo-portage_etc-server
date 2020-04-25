@@ -4,7 +4,7 @@ app-emulation/lxc cgmanager
 app-portage/eix clang optimization
 app-portage/layman git subversion
 dev-db/mysql -berkdb
-dev-lang/rust clang
+dev-lang/rust clang nightly parallel-compiler
 dev-python/zobcs mysql
 dev-util/catalyst ccache system-bootloader
 dev-util/strace -unwind
@@ -27,4 +27,3 @@ sys-firmware/intel-microcode hostonly monolithic
 sys-process/htop oom
 sys-process/lsof rpc
 www-servers/nginx aio libatomic pcre-jit
-www-servers/uwsgi python python_gevent -uwsgi_plugins_rsyslog

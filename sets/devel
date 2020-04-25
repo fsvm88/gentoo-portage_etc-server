@@ -1,9 +1,6 @@
 app-doc/eclass-manpages
 app-emulation/lxc
-dev-db/arangodb3
-dev-db/redis
 dev-libs/libyaml
-dev-php/pecl-redis
 dev-python/lxml
 dev-python/psycopg:2
 dev-python/pylint

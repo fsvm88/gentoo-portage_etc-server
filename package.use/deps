@@ -11,6 +11,7 @@ dev-libs/boost python
 dev-libs/leveldb -snappy
 dev-libs/libpcre jit
 dev-libs/libusb udev
+dev-perl/DBD-mysql mysql
 dev-util/google-perftools largepages
 dev-vcs/git subversion
 dev-vcs/subversion perl -dso
@@ -18,6 +19,7 @@ mail-filter/procmail mbox
 mail-mta/postfix mbox
 media-libs/libpng apng
 media-libs/libsdl X
+media-libs/mesa X
 net-dns/dnsmasq script
 net-misc/curl nss libssh2 -gnutls
 net-misc/iputils arping clockdiff rarpd tracepath
@@ -32,4 +34,5 @@ sys-fs/quota netlink
 sys-libs/libseccomp static-libs
 sys-libs/libunwind libatomic
 sys-libs/ncurses tinfo
+virtual/libcrypt static-libs
 virtual/libusb udev

@@ -11,3 +11,4 @@ sys-cluster/kubectl
 sys-cluster/kubelet
 sys-cluster/kube-proxy
 sys-cluster/kube-scheduler
+<sys-kernel/gentoo-sources-5.6
