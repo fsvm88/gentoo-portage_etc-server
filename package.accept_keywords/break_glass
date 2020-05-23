@@ -9,11 +9,9 @@
 <app-misc/crunch-3.7
 dev-db/postgresql:12
 <dev-lang/go-1.13.6
-<dev-lang/php-7.4
 <dev-lang/rust-1.42
 <dev-libs/libgit2-1.1
 <dev-libs/univalue-1.0.5
-<dev-php/pecl-redis-4.4
 <dev-python/awscli-1.16.215
 <dev-python/awscli-1.16.233-r99
 <dev-python/awscli-1.18
