@@ -5,11 +5,9 @@ app-crypt/certbot-plugin-gandi
 dev-cpp/sparsehash
 dev-db/mariadb
 dev-db/postgresql
-dev-lang/php
 dev-python/GitPython
 dev-python/pyinotify
 dev-python/sqlalchemy
-# move dev-python/git-python dev-python/GitPython
 net-irc/weechat
 net-misc/chrony
 net-p2p/bitcoin-cli
