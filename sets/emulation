@@ -6,3 +6,4 @@ app-emulation/qemu
 app-emulation/virtualbox
 net-firewall/ebtables
 net-misc/bridge-utils
+virtual/glu

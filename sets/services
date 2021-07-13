@@ -1,9 +1,7 @@
 app-admin/apache-tools
 app-crypt/certbot
-app-crypt/certbot-dns-route53
 app-crypt/certbot-plugin-gandi
 dev-cpp/sparsehash
-dev-db/mariadb
 dev-db/postgresql
 dev-python/GitPython
 dev-python/pyinotify
@@ -11,8 +9,6 @@ dev-python/sqlalchemy
 net-irc/weechat
 net-misc/chrony
 net-p2p/bitcoin-cli
-net-p2p/go-ethereum
-net-p2p/transmission
 net-proxy/dante
 sci-misc/boinc
 www-misc/shellinabox

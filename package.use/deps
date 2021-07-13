@@ -9,6 +9,7 @@ dev-lang/python sqlite
 dev-lang/rust clippy rls rustfmt -system-llvm
 dev-libs/boost python
 dev-libs/leveldb -snappy
+dev-libs/libpcre2 pcre32
 dev-libs/libpcre jit
 dev-libs/libusb udev
 dev-perl/DBD-mysql mysql
@@ -17,10 +18,12 @@ dev-vcs/git subversion
 dev-vcs/subversion perl -dso
 mail-filter/procmail mbox
 mail-mta/postfix mbox
+media-libs/libglvnd X
 media-libs/libpng apng
 media-libs/libsdl X
 media-libs/mesa X
 net-dns/dnsmasq script
+net-misc/curl http2
 net-misc/curl nss libssh2 -gnutls
 net-misc/iputils arping clockdiff rarpd tracepath
 net-misc/openssh -ldap

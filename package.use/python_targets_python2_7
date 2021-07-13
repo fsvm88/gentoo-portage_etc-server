@@ -5,6 +5,7 @@ dev-python/certifi python_targets_python2_7
 dev-python/mako python_targets_python2_7
 dev-python/markupsafe python_targets_python2_7
 dev-python/setuptools python_targets_python2_7
+dev-python/setuptools_scm python_targets_python2_7
 dev-python/six python_targets_python2_7
 dev-util/lldb python_targets_python2_7
 dev-util/scons python_targets_python2_7
