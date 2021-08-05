@@ -36,6 +36,6 @@ sys-devel/gcc fortran graphite lto
 sys-fs/quota netlink
 sys-libs/libseccomp static-libs
 sys-libs/libunwind libatomic
-sys-libs/ncurses tinfo
+sys-libs/ncurses static-libs tinfo
 virtual/libcrypt static-libs
 virtual/libusb udev
