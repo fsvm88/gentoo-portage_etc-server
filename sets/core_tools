@@ -1,3 +1,4 @@
+app-misc/jq
 app-misc/tmux
 dev-util/ccache
 dev-util/strace

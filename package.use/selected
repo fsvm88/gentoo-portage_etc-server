@@ -4,7 +4,7 @@ app-emulation/lxc cgmanager
 app-portage/eix clang optimization
 app-portage/layman git subversion
 dev-db/mysql -berkdb
-dev-lang/rust clang nightly parallel-compiler
+dev-lang/rust clang nightly parallel-compiler rust-src
 dev-util/catalyst ccache system-bootloader
 dev-util/strace -unwind
 dev-util/systemtap libvirt

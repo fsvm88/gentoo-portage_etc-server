@@ -11,6 +11,5 @@
 <sys-fs/zfs-2.2.0
 <sys-fs/zfs-kmod-2.1
 <sys-fs/zfs-kmod-2.2.0
-<sys-kernel/gentoo-sources-5.14
+<sys-kernel/gentoo-sources-5.15
 <sys-kernel/linux-headers-5.20
-<virtual/rust-1.55

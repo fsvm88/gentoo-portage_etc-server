@@ -6,6 +6,7 @@ dev-db/postgresql -ldap llvm threads
 dev-db/sqlite secure-delete
 dev-lang/php bcmath calendar curlwrappers filter fpm gmp hash json mhash mysqli pdo sharedext soap simplexml wddx xmlreader xmlwriter xsl embed
 dev-lang/python sqlite
+dev-lang/rust-bin rustfmt
 dev-lang/rust clippy rls rustfmt system-bootstrap -system-llvm
 dev-libs/boost python
 dev-libs/leveldb -snappy
@@ -36,7 +37,7 @@ sys-devel/gcc fortran graphite lto
 sys-fs/quota netlink
 sys-libs/libseccomp static-libs
 sys-libs/libunwind libatomic
+sys-libs/libxcrypt static-libs
 sys-libs/ncurses static-libs tinfo
 virtual/libcrypt static-libs
 virtual/libusb udev
-dev-lang/rust-bin rustfmt
