@@ -2,6 +2,7 @@
 <app-arch/pbzip2-1.2
 <app-emulation/docker-machine-0.14
 <app-misc/crunch-3.7
+<dev-python/sphinx_rtd_theme-1.1
 <dev-util/perf-5.10
 <net-analyzer/hunt-1.6
 <net-libs/stem-1.9
@@ -11,5 +12,5 @@
 <sys-fs/zfs-2.2.0
 <sys-fs/zfs-kmod-2.1
 <sys-fs/zfs-kmod-2.2.0
-<sys-kernel/gentoo-sources-5.15
+<sys-kernel/gentoo-sources-5.16
 <sys-kernel/linux-headers-5.20
