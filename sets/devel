@@ -1,5 +1,5 @@
+app-containers/lxc
 app-doc/eclass-manpages
-app-emulation/lxc
 dev-libs/libyaml
 dev-python/lxml
 dev-python/psycopg:2

@@ -1,6 +1,6 @@
+app-containers/lxc cgmanager
 app-editors/vim python
 app-emulation/libvirt pcap python qemu virt-network
-app-emulation/lxc cgmanager
 app-portage/eix clang optimization
 app-portage/layman git subversion
 dev-db/mysql -berkdb
