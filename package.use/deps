@@ -1,4 +1,4 @@
-app-emulation/qemu spice
+app-emulation/qemu gnutls spice
 app-emulation/virtualbox opengl
 app-eselect/eselect-php fpm
 app-text/ghostscript-gpl cups
