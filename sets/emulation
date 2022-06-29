@@ -1,4 +1,5 @@
 app-containers/docker
+app-containers/docker-cli
 app-containers/docker-compose
 app-emulation/docker-machine
 app-emulation/libvirt

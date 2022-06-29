@@ -21,7 +21,7 @@ net-vpn/tor tor-hardening transparent-proxy stats
 sys-apps/smartmontools update_drivedb
 sys-boot/grub device-mapper
 sys-devel/clang default-compiler-rt default-libcxx llvm-libunwind
-sys-devel/llvm clang gold udis86
+sys-devel/llvm clang udis86
 sys-firmware/intel-microcode hostonly monolithic
 sys-process/htop oom
 sys-process/lsof rpc

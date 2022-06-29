@@ -12,5 +12,7 @@
 <sys-fs/zfs-2.2.0
 <sys-fs/zfs-kmod-2.1
 <sys-fs/zfs-kmod-2.2.0
-<sys-kernel/gentoo-sources-5.16
+<sys-kernel/gentoo-sources-5.19
 <sys-kernel/linux-headers-5.20
+<app-emulation/virtualbox-modules-6.1.35
+<app-emulation/virtualbox-6.1.35

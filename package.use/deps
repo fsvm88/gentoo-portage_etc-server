@@ -32,6 +32,7 @@ net-p2p/bitcoin-cli knots
 sys-apps/util-linux static-libs
 sys-boot/grub libzfs
 sys-boot/grub mount
+sys-devel/binutils pgo -gold
 sys-devel/clang-runtime crt libcxx
 sys-devel/gcc fortran graphite lto
 sys-fs/quota netlink
