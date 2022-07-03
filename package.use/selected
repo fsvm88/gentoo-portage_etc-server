@@ -2,7 +2,7 @@ app-containers/lxc cgmanager
 app-editors/vim python
 app-emulation/libvirt pcap python qemu virt-network
 app-portage/eix clang optimization
-app-portage/layman git subversion
+app-portage/layman git
 dev-db/mysql -berkdb
 dev-lang/rust clang nightly parallel-compiler rust-src
 dev-util/catalyst ccache system-bootloader

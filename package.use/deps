@@ -15,8 +15,6 @@ dev-libs/libpcre jit
 dev-libs/libusb udev
 dev-perl/DBD-mysql mysql
 dev-util/google-perftools largepages
-dev-vcs/git subversion
-dev-vcs/subversion perl -dso
 mail-filter/procmail mbox
 mail-mta/postfix mbox
 media-libs/libglvnd X

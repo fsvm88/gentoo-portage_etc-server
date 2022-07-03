@@ -1,11 +1,5 @@
-app-containers/lxc
-app-doc/eclass-manpages
-dev-libs/libyaml
-dev-python/lxml
-dev-python/psycopg:2
-dev-python/pylint
 dev-python/virtualenv
 dev-util/perf
+dev-vcs/git
 dev-vcs/tig
 sys-devel/gdb
-sys-libs/ncurses-compat

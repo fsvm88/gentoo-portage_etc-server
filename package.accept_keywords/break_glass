@@ -1,12 +1,15 @@
 <app-admin/kube-bench-1
 <app-arch/pbzip2-1.2
 <app-emulation/docker-machine-0.14
+<app-emulation/virtualbox-6.1.35
+<app-emulation/virtualbox-modules-6.1.35
 <app-misc/crunch-3.7
 <dev-python/sphinx_rtd_theme-1.1
 <dev-util/perf-5.10
 <net-analyzer/hunt-1.6
 <net-libs/stem-1.9
 <net-misc/nyx-2.5
+<sys-devel/binutils-2.39
 <sys-fs/quotatool-1.7
 <sys-fs/zfs-2.1
 <sys-fs/zfs-2.2.0
@@ -14,5 +17,3 @@
 <sys-fs/zfs-kmod-2.2.0
 <sys-kernel/gentoo-sources-5.19
 <sys-kernel/linux-headers-5.20
-<app-emulation/virtualbox-modules-6.1.35
-<app-emulation/virtualbox-6.1.35

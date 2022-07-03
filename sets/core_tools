@@ -1,9 +1,16 @@
+app-admin/sudo
 app-misc/jq
 app-misc/tmux
+app-portage/eix
+app-portage/euses
+app-portage/genlop
+app-portage/gentoolkit
+app-portage/layman
+app-shells/bash-completion
 dev-util/ccache
 dev-util/strace
 net-ftp/ncftp
-sys-apps/daemonize
+sys-apps/dstat
 sys-apps/hdparm
 sys-apps/irqbalance
 sys-apps/iucode_tool
@@ -11,7 +18,6 @@ sys-apps/mlocate
 sys-apps/pciutils
 sys-apps/smartmontools
 sys-boot/grub
-sys-devel/bc
 sys-firmware/intel-microcode
 sys-kernel/genkernel
 sys-kernel/linux-firmware
