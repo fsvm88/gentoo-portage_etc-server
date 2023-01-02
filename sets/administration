@@ -1,4 +1,5 @@
 app-admin/eclean-kernel
+app-crypt/easy-rsa
 app-crypt/gentoo-keys
 app-portage/cpuid2cpuflags
 dev-libs/libcgroup

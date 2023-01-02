@@ -4,10 +4,12 @@ net-p2p/bitcoin-cli
 net-p2p/go-ethereum
 net-vpn/tor
 sci-misc/boinc
-sys-apps/portage
+#sys-apps/portage
 sys-cluster/kube-apiserver
 sys-cluster/kube-controller-manager
 sys-cluster/kubectl
 sys-cluster/kubelet
 sys-cluster/kube-proxy
 sys-cluster/kube-scheduler
+sys-fs/zfs
+sys-fs/zfs-kmod

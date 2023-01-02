@@ -31,12 +31,15 @@ sys-apps/util-linux static-libs
 sys-boot/grub libzfs
 sys-boot/grub mount
 sys-devel/binutils pgo -gold
+sys-devel/clang-common default-lld default-compiler-rt default-libcxx
 sys-devel/clang-runtime crt libcxx
 sys-devel/gcc fortran graphite lto
+sys-fs/lvm2 thin lvm
 sys-fs/quota netlink
 sys-libs/libseccomp static-libs
 sys-libs/libunwind libatomic
 sys-libs/libxcrypt static-libs
 sys-libs/ncurses static-libs tinfo
+sys-libs/zlib static-libs
 virtual/libcrypt static-libs
 virtual/libusb udev

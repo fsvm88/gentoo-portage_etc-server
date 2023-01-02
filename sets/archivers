@@ -2,6 +2,7 @@ app-arch/lrzip
 app-arch/lzop
 app-arch/p7zip
 app-arch/pbzip2
+app-arch/pigz
 app-arch/pixz
 app-arch/unrar
 app-arch/zip

@@ -3,3 +3,4 @@ dev-util/perf
 dev-vcs/git
 dev-vcs/tig
 sys-devel/gdb
+sys-libs/libfaketime
