@@ -1,17 +1,17 @@
 app-emulation/qemu gnutls spice
-app-emulation/virtualbox opengl
+app-emulation/virtualbox dbus opengl -gui
 app-eselect/eselect-php fpm
 app-text/ghostscript-gpl cups
 dev-db/postgresql -ldap llvm threads
 dev-db/sqlite secure-delete
 dev-lang/php bcmath calendar curlwrappers filter fpm gmp hash json mhash mysqli pdo sharedext soap simplexml wddx xmlreader xmlwriter xsl embed
 dev-lang/python sqlite
-dev-lang/rust-bin rustfmt
 dev-lang/rust clippy rls rustfmt system-bootstrap -system-llvm
+dev-lang/rust-bin rustfmt
 dev-libs/boost python
 dev-libs/leveldb -snappy
-dev-libs/libpcre2 pcre32
 dev-libs/libpcre jit
+dev-libs/libpcre2 pcre32
 dev-libs/libusb udev
 dev-perl/DBD-mysql mysql
 dev-util/google-perftools largepages
@@ -27,13 +27,14 @@ net-misc/curl nss libssh2 -gnutls
 net-misc/iputils arping clockdiff rarpd tracepath
 net-misc/openssh -ldap
 net-p2p/bitcoin-cli knots
+sys-apps/systemd policykit
 sys-apps/util-linux static-libs
 sys-boot/grub libzfs
 sys-boot/grub mount
 sys-devel/binutils pgo -gold
 sys-devel/clang-common default-lld default-compiler-rt default-libcxx
 sys-devel/clang-runtime crt libcxx
-sys-devel/gcc fortran graphite lto
+sys-devel/gcc default-stack-clash-protection default-znow fortran graphite lto
 sys-fs/lvm2 thin lvm
 sys-fs/quota netlink
 sys-libs/libseccomp static-libs

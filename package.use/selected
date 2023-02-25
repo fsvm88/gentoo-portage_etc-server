@@ -18,6 +18,7 @@ net-p2p/go-ethereum evm
 net-proxy/tsocks tordns
 net-vpn/openvpn inotify iproute2 lz4
 net-vpn/tor tor-hardening transparent-proxy stats
+sys-apps/fwupd gnutls nvme uefi
 sys-apps/smartmontools update_drivedb
 sys-boot/grub device-mapper
 sys-devel/clang llvm-libunwind
