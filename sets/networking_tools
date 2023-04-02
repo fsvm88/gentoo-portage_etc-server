@@ -5,7 +5,6 @@ net-analyzer/nettop
 net-analyzer/nmap
 net-analyzer/tcpdump
 net-analyzer/traceroute
-net-analyzer/traceroute-nanog
 net-dns/bind-tools
 net-firewall/conntrack-tools
 net-firewall/iptables

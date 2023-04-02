@@ -1,5 +1,6 @@
 app-admin/kube-bench
 app-admin/kubectx
+sys-cluster/hubble
 sys-cluster/kube-apiserver
 sys-cluster/kube-controller-manager
 sys-cluster/kube-proxy

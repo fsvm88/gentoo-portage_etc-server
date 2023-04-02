@@ -39,6 +39,7 @@ sys-fs/lvm2 thin lvm
 sys-fs/quota netlink
 sys-libs/libseccomp static-libs
 sys-libs/libunwind libatomic
+sys-libs/libunwind static-libs
 sys-libs/libxcrypt static-libs
 sys-libs/ncurses static-libs tinfo
 sys-libs/zlib static-libs
