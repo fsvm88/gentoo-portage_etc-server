@@ -5,7 +5,6 @@ app-portage/eix
 app-portage/euses
 app-portage/genlop
 app-portage/gentoolkit
-app-portage/layman
 app-shells/bash-completion
 dev-util/ccache
 dev-util/strace
@@ -13,7 +12,6 @@ net-ftp/ncftp
 sys-apps/dstat
 sys-apps/hdparm
 sys-apps/irqbalance
-sys-apps/iucode_tool
 sys-apps/mlocate
 sys-apps/pciutils
 sys-apps/smartmontools

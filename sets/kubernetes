@@ -1,4 +1,6 @@
+app-admin/helm
 app-containers/cri-o
+app-containers/cri-tools
 sys-cluster/cilium-cli
 sys-cluster/hubble
 sys-cluster/kubeadm

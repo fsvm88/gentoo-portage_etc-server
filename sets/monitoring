@@ -1,4 +1,3 @@
-app-metrics/node_exporter
 sys-apps/lm-sensors
 sys-power/powertop
 sys-power/thermald

@@ -6,9 +6,6 @@ net-fs/nfs-utils
 sys-apps/gptfdisk
 sys-fs/ddrescue
 sys-fs/dosfstools
-sys-fs/duperemove
 sys-fs/mdadm
 sys-fs/ncdu
-sys-fs/quota
-sys-fs/quotatool
 sys-fs/squashfs-tools

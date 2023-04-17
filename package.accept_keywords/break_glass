@@ -1,4 +1,5 @@
 <app-containers/containerd-1.7
+<app-containers/cri-tools-1.26.0
 <app-containers/docker-proxy-0.9
 <app-emulation/docker-machine-0.14
 <net-analyzer/hunt-1.6
