@@ -1,0 +1,40 @@
+From 337f4e524aab8dedfeacfe8cc6b39dc0145a7214 Mon Sep 17 00:00:00 2001
+From: Sascha Grunert <sgrunert@redhat.com>
+Date: Mon, 22 Mar 2021 12:01:59 +0100
+Subject: [PATCH] Do not error log CRI stats for not cached partitions
+
+We do not have any cached partitions available on Kubelet start with an
+empty container storage in CRI-O. This means that the error log message
+is not actually an error and more an information.
+
+This means we now pre-filter those cases and do not `klog.ErrorS` any
+more. This helps to avoid log spamming in huge clusters.
+
+Signed-off-by: Sascha Grunert <sgrunert@redhat.com>
+---
+ pkg/kubelet/stats/cri_stats_provider.go | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+
+diff --git a/pkg/kubelet/stats/cri_stats_provider.go b/pkg/kubelet/stats/cri_stats_provider.go
+index d1e1d90b275cd..8046e92ecfeae 100644
+--- a/pkg/kubelet/stats/cri_stats_provider.go
++++ b/pkg/kubelet/stats/cri_stats_provider.go
+@@ -26,6 +26,7 @@ import (
+ 	"sync"
+ 	"time"
+ 
++	cadvisormemory "github.com/google/cadvisor/cache/memory"
+ 	cadvisorfs "github.com/google/cadvisor/fs"
+ 	cadvisorapiv2 "github.com/google/cadvisor/info/v2"
+ 	"google.golang.org/grpc/codes"
+@@ -449,7 +450,9 @@ func (p *criStatsProvider) getFsInfo(fsID *runtimeapi.FilesystemIdentifier) *cad
+ 	fsInfo, err := p.cadvisor.GetDirFsInfo(mountpoint)
+ 	if err != nil {
+ 		msg := "Failed to get the info of the filesystem with mountpoint"
+-		if err == cadvisorfs.ErrNoSuchDevice {
++		if errors.Is(err, cadvisorfs.ErrNoSuchDevice) ||
++			errors.Is(err, cadvisorfs.ErrDeviceNotInPartitionsMap) ||
++			errors.Is(err, cadvisormemory.ErrDataNotFound) {
+ 			klog.V(2).InfoS(msg, "mountpoint", mountpoint, "err", err)
+ 		} else {
+ 			klog.ErrorS(err, msg, "mountpoint", mountpoint)

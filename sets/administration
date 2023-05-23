@@ -1,8 +1,10 @@
 app-admin/eclean-kernel
 app-crypt/easy-rsa
-app-crypt/gentoo-keys
+app-eselect/eselect-repository
 app-portage/cpuid2cpuflags
 dev-python/pip
+sec-keys/openpgp-keys-gentoo-auth
+sec-keys/openpgp-keys-gentoo-release
 sys-apps/fwupd
 sys-apps/lshw
 sys-apps/ripgrep
