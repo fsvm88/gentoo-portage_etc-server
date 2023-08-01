@@ -1,11 +1,11 @@
 <app-containers/containerd-1.7
-<app-containers/cri-tools-1.26.0
-<app-containers/runc-1.1.6
+<app-containers/runc-1.1.8
 <app-emulation/docker-machine-0.14
 <app-emulation/virtualbox-7.0.9
 <app-emulation/virtualbox-modules-7.0.9
 <net-analyzer/hunt-1.6
 <net-libs/stem-1.9
 <net-misc/nyx-2.5
-<sys-kernel/gentoo-sources-6.4
-<sys-kernel/linux-headers-6.4
+<sec-keys/openpgp-keys-tor-20231231
+<sys-kernel/gentoo-sources-6.5
+<sys-kernel/linux-headers-6.5

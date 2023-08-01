@@ -1,13 +1,9 @@
-<app-containers/cri-o-1.27
-<sys-cluster/cilium-cli-0.14.0
-<sys-cluster/hubble-0.12
-<sys-cluster/kubeadm-1.27.2
-<sys-cluster/kubectl-1.27.2
-<sys-cluster/kubelet-1.27.2
+dev-lang/rust
 net-misc/rclone
 net-p2p/bitcoin-cli
 net-vpn/tor
 sci-misc/boinc
 sys-apps/fwupd
-sys-fs/zfs **
-sys-fs/zfs-kmod **
+sys-fs/zfs
+sys-fs/zfs-kmod
+virtual/rust

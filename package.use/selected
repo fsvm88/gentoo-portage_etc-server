@@ -20,6 +20,7 @@ net-vpn/openvpn inotify iproute2 lz4
 net-vpn/tor tor-hardening transparent-proxy stats
 sys-apps/fwupd gnutls nvme uefi
 sys-apps/smartmontools update_drivedb
+sys-block/fio gnuplot io-uring python tcmalloc
 sys-boot/grub device-mapper
 sys-devel/clang llvm-libunwind
 sys-devel/llvm clang udis86

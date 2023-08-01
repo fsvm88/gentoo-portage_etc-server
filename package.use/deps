@@ -5,7 +5,7 @@ app-text/ghostscript-gpl cups
 dev-db/postgresql -ldap llvm threads
 dev-db/sqlite secure-delete
 dev-lang/php bcmath calendar curlwrappers filter fpm gmp hash json mhash mysqli pdo sharedext soap simplexml wddx xmlreader xmlwriter xsl embed
-dev-lang/python sqlite
+dev-lang/python lto sqlite
 dev-lang/rust clippy rls rustfmt system-bootstrap -system-llvm
 dev-lang/rust-bin rustfmt
 dev-libs/boost python
@@ -45,3 +45,4 @@ sys-libs/ncurses static-libs tinfo
 sys-libs/zlib static-libs
 virtual/libcrypt static-libs
 virtual/libusb udev
+virtual/rust rustfmt
