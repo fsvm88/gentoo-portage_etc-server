@@ -1,0 +1,193 @@
+From c7c4b9af3dbc4c6fd59e57953bf5017cd22687a7 Mon Sep 17 00:00:00 2001
+From: xuexu6666 <xuexu6666@gmail.com>
+Date: Fri, 7 Jul 2023 22:45:52 -0500
+Subject: [PATCH 1/5] Change the logging from Info to Error
+
+---
+ pkg/kubelet/server/stats/volume_stat_calculator.go | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/pkg/kubelet/server/stats/volume_stat_calculator.go b/pkg/kubelet/server/stats/volume_stat_calculator.go
+index 671c72ca4b51d..a3a9e3fdc8cd5 100644
+--- a/pkg/kubelet/server/stats/volume_stat_calculator.go
++++ b/pkg/kubelet/server/stats/volume_stat_calculator.go
+@@ -142,7 +142,7 @@ func (s *volumeStatCalculator) calcAndStoreStats() {
+ 		if err != nil {
+ 			// Expected for Volumes that don't support Metrics
+ 			if !volume.IsNotSupported(err) {
+-				klog.V(4).InfoS("Failed to calculate volume metrics", "pod", klog.KObj(s.pod), "podUID", s.pod.UID, "volumeName", name, "err", err)
++				klog.ErrorS(err, "Failed to calculate volume metrics", "pod", klog.KObj(s.pod), "podUID", s.pod.UID, "volumeName", name)
+ 			}
+ 			continue
+ 		}
+
+From 615ac76579ffd38635f4626680151c394d50cec4 Mon Sep 17 00:00:00 2001
+From: xuexu6666 <xuexu6666@gmail.com>
+Date: Mon, 10 Jul 2023 22:45:04 -0500
+Subject: [PATCH 2/5] resolve comments
+
+---
+ pkg/kubelet/server/stats/volume_stat_calculator.go     | 10 +++++++---
+ .../server/stats/volume_stat_calculator_test.go        |  9 ++++++---
+ 2 files changed, 13 insertions(+), 6 deletions(-)
+
+diff --git a/pkg/kubelet/server/stats/volume_stat_calculator.go b/pkg/kubelet/server/stats/volume_stat_calculator.go
+index a3a9e3fdc8cd5..088a4cecd0b9a 100644
+--- a/pkg/kubelet/server/stats/volume_stat_calculator.go
++++ b/pkg/kubelet/server/stats/volume_stat_calculator.go
+@@ -68,8 +68,9 @@ func newVolumeStatCalculator(statsProvider Provider, jitterPeriod time.Duration,
+ // StartOnce starts pod volume calc that will occur periodically in the background until s.StopOnce is called
+ func (s *volumeStatCalculator) StartOnce() *volumeStatCalculator {
+ 	s.startO.Do(func() {
++		errors := make(map[string]error)
+ 		go wait.JitterUntil(func() {
+-			s.calcAndStoreStats()
++			s.calcAndStoreStats(errors)
+ 		}, s.jitterPeriod, 1.0, true, s.stopChannel)
+ 	})
+ 	return s
+@@ -95,7 +96,7 @@ func (s *volumeStatCalculator) GetLatest() (PodVolumeStats, bool) {
+ 
+ // calcAndStoreStats calculates PodVolumeStats for a given pod and writes the result to the s.latest cache.
+ // If the pod references PVCs, the prometheus metrics for those are updated with the result.
+-func (s *volumeStatCalculator) calcAndStoreStats() {
++func (s *volumeStatCalculator) calcAndStoreStats(errors map[string]error) {
+ 	// Find all Volumes for the Pod
+ 	volumes, found := s.statsProvider.ListVolumesForPod(s.pod.UID)
+ 	blockVolumes, bvFound := s.statsProvider.ListBlockVolumesForPod(s.pod.UID)
+@@ -142,7 +143,10 @@ func (s *volumeStatCalculator) calcAndStoreStats() {
+ 		if err != nil {
+ 			// Expected for Volumes that don't support Metrics
+ 			if !volume.IsNotSupported(err) {
+-				klog.ErrorS(err, "Failed to calculate volume metrics", "pod", klog.KObj(s.pod), "podUID", s.pod.UID, "volumeName", name)
++				if oldErr, found := errors[name]; !found || oldErr.Error() != err.Error() {
++					klog.InfoS("Failed to calculate volume metrics", "pod", klog.KObj(s.pod), "podUID", s.pod.UID, "volumeName", name, "err", err)
++					errors[name] = err
++				}
+ 			}
+ 			continue
+ 		}
+diff --git a/pkg/kubelet/server/stats/volume_stat_calculator_test.go b/pkg/kubelet/server/stats/volume_stat_calculator_test.go
+index 7af179659db7d..0d5760e35dde9 100644
+--- a/pkg/kubelet/server/stats/volume_stat_calculator_test.go
++++ b/pkg/kubelet/server/stats/volume_stat_calculator_test.go
+@@ -122,7 +122,8 @@ func TestPVCRef(t *testing.T) {
+ 
+ 	// Calculate stats for pod
+ 	statsCalculator := newVolumeStatCalculator(mockStats, time.Minute, fakePod, &fakeEventRecorder)
+-	statsCalculator.calcAndStoreStats()
++	errors := make(map[string]error)
++	statsCalculator.calcAndStoreStats(errors)
+ 	vs, _ := statsCalculator.GetLatest()
+ 
+ 	assert.Len(t, append(vs.EphemeralVolumes, vs.PersistentVolumes...), 4)
+@@ -181,7 +182,8 @@ func TestNormalVolumeEvent(t *testing.T) {
+ 
+ 	// Calculate stats for pod
+ 	statsCalculator := newVolumeStatCalculator(mockStats, time.Minute, fakePod, &fakeEventRecorder)
+-	statsCalculator.calcAndStoreStats()
++	errors := make(map[string]error)
++	statsCalculator.calcAndStoreStats(errors)
+ 
+ 	event, err := WatchEvent(eventStore)
+ 	assert.NotNil(t, err)
+@@ -211,7 +213,8 @@ func TestAbnormalVolumeEvent(t *testing.T) {
+ 		volumeCondition.Abnormal = true
+ 	}
+ 	statsCalculator := newVolumeStatCalculator(mockStats, time.Minute, fakePod, &fakeEventRecorder)
+-	statsCalculator.calcAndStoreStats()
++	errors := make(map[string]error)
++	statsCalculator.calcAndStoreStats(errors)
+ 
+ 	event, err := WatchEvent(eventStore)
+ 	assert.Nil(t, err)
+
+From c3623d8d6eb79a3c78a4d00d7d2982ce666d4627 Mon Sep 17 00:00:00 2001
+From: xuexu6666 <xuexu6666@gmail.com>
+Date: Mon, 17 Jul 2023 11:01:56 -0500
+Subject: [PATCH 3/5] resolve nit comment
+
+---
+ pkg/kubelet/server/stats/volume_stat_calculator_test.go | 9 +++------
+ 1 file changed, 3 insertions(+), 6 deletions(-)
+
+diff --git a/pkg/kubelet/server/stats/volume_stat_calculator_test.go b/pkg/kubelet/server/stats/volume_stat_calculator_test.go
+index 0d5760e35dde9..1382737635ee5 100644
+--- a/pkg/kubelet/server/stats/volume_stat_calculator_test.go
++++ b/pkg/kubelet/server/stats/volume_stat_calculator_test.go
+@@ -122,8 +122,7 @@ func TestPVCRef(t *testing.T) {
+ 
+ 	// Calculate stats for pod
+ 	statsCalculator := newVolumeStatCalculator(mockStats, time.Minute, fakePod, &fakeEventRecorder)
+-	errors := make(map[string]error)
+-	statsCalculator.calcAndStoreStats(errors)
++	statsCalculator.calcAndStoreStats(make(map[string]error))
+ 	vs, _ := statsCalculator.GetLatest()
+ 
+ 	assert.Len(t, append(vs.EphemeralVolumes, vs.PersistentVolumes...), 4)
+@@ -182,8 +181,7 @@ func TestNormalVolumeEvent(t *testing.T) {
+ 
+ 	// Calculate stats for pod
+ 	statsCalculator := newVolumeStatCalculator(mockStats, time.Minute, fakePod, &fakeEventRecorder)
+-	errors := make(map[string]error)
+-	statsCalculator.calcAndStoreStats(errors)
++	statsCalculator.calcAndStoreStats(make(map[string]error))
+ 
+ 	event, err := WatchEvent(eventStore)
+ 	assert.NotNil(t, err)
+@@ -213,8 +211,7 @@ func TestAbnormalVolumeEvent(t *testing.T) {
+ 		volumeCondition.Abnormal = true
+ 	}
+ 	statsCalculator := newVolumeStatCalculator(mockStats, time.Minute, fakePod, &fakeEventRecorder)
+-	errors := make(map[string]error)
+-	statsCalculator.calcAndStoreStats(errors)
++	statsCalculator.calcAndStoreStats(make(map[string]error))
+ 
+ 	event, err := WatchEvent(eventStore)
+ 	assert.Nil(t, err)
+
+From 1dbb2501b1884bae20dce2ba59b65a8b3476b368 Mon Sep 17 00:00:00 2001
+From: xuexu6666 <xuexu6666@gmail.com>
+Date: Mon, 17 Jul 2023 22:24:54 -0500
+Subject: [PATCH 4/5] resolve comment: clear err on success
+
+---
+ pkg/kubelet/server/stats/volume_stat_calculator.go | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/pkg/kubelet/server/stats/volume_stat_calculator.go b/pkg/kubelet/server/stats/volume_stat_calculator.go
+index 088a4cecd0b9a..7b8ac5262bb7c 100644
+--- a/pkg/kubelet/server/stats/volume_stat_calculator.go
++++ b/pkg/kubelet/server/stats/volume_stat_calculator.go
+@@ -149,6 +149,8 @@ func (s *volumeStatCalculator) calcAndStoreStats(errors map[string]error) {
+ 				}
+ 			}
+ 			continue
++		} else {
++			delete(errors, name)
+ 		}
+ 		// Lookup the volume spec and add a 'PVCReference' for volumes that reference a PVC
+ 		volSpec := volumesSpec[name]
+
+From ac55772aef2ae3d63100f995b82e93a141191d91 Mon Sep 17 00:00:00 2001
+From: xuexu6666 <xuexu6666@gmail.com>
+Date: Tue, 18 Jul 2023 18:27:03 -0500
+Subject: [PATCH 5/5] resolve comment
+
+---
+ pkg/kubelet/server/stats/volume_stat_calculator.go | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/pkg/kubelet/server/stats/volume_stat_calculator.go b/pkg/kubelet/server/stats/volume_stat_calculator.go
+index 7b8ac5262bb7c..68342cf02b1ab 100644
+--- a/pkg/kubelet/server/stats/volume_stat_calculator.go
++++ b/pkg/kubelet/server/stats/volume_stat_calculator.go
+@@ -144,7 +144,7 @@ func (s *volumeStatCalculator) calcAndStoreStats(errors map[string]error) {
+ 			// Expected for Volumes that don't support Metrics
+ 			if !volume.IsNotSupported(err) {
+ 				if oldErr, found := errors[name]; !found || oldErr.Error() != err.Error() {
+-					klog.InfoS("Failed to calculate volume metrics", "pod", klog.KObj(s.pod), "podUID", s.pod.UID, "volumeName", name, "err", err)
++					klog.ErrorS(err, "Failed to calculate volume metrics", "pod", klog.KObj(s.pod), "podUID", s.pod.UID, "volumeName", name)
+ 					errors[name] = err
+ 				}
+ 			}
