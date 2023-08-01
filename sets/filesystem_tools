@@ -4,6 +4,7 @@ app-misc/symlinks
 app-misc/wipe
 net-fs/nfs-utils
 sys-apps/gptfdisk
+sys-block/fio
 sys-fs/ddrescue
 sys-fs/dosfstools
 sys-fs/mdadm
