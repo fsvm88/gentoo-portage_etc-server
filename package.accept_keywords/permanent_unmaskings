@@ -1,9 +1,8 @@
+app-backup/btrbk
 dev-lang/rust
 net-misc/rclone
 net-p2p/bitcoin-cli
 net-vpn/tor
 sci-misc/boinc
 sys-apps/fwupd
-sys-fs/zfs
-sys-fs/zfs-kmod
 virtual/rust

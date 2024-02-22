@@ -1,3 +1,4 @@
+# move dev-util/strace dev-debug/strace
 app-admin/sudo
 app-misc/jq
 app-misc/tmux
@@ -6,8 +7,8 @@ app-portage/euses
 app-portage/genlop
 app-portage/gentoolkit
 app-shells/bash-completion
+dev-debug/strace
 dev-util/ccache
-dev-util/strace
 net-ftp/ncftp
 sys-apps/dstat
 sys-apps/hdparm

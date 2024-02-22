@@ -1,1 +1,3 @@
+sys-firmware/intel-microcode initramfs
 sys-kernel/gentoo-sources experimental symlink
+sys-kernel/linux-firmware initramfs savedconfig

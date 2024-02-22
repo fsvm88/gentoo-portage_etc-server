@@ -1,4 +1,5 @@
+# move dev-util/lldb dev-debug/lldb
+dev-debug/lldb
 dev-lang/rust
-dev-util/lldb
 sys-devel/clang
 sys-devel/lld

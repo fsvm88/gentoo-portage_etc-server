@@ -1,13 +1,13 @@
+# move dev-util/strace dev-debug/strace
+app-backup/btrbk doc
 app-containers/lxc cgmanager
 app-editors/vim python
 app-emulation/libvirt pcap python qemu virt-network
 app-portage/eix clang optimization
-app-portage/layman git
 dev-db/mysql -berkdb
+dev-debug/strace -unwind
 dev-lang/rust clang nightly parallel-compiler rust-src
 dev-util/catalyst ccache system-bootloader
-dev-util/strace -unwind
-dev-util/systemtap libvirt
 net-analyzer/nmap ncat ndiff nmap-update nping
 net-firewall/iptables nftables
 net-fs/nfs-utils nfsdcld nfsv41

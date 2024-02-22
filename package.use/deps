@@ -22,14 +22,15 @@ media-libs/libpng apng
 media-libs/libsdl X
 media-libs/mesa X
 net-dns/dnsmasq script
+net-libs/gnutls tools pkcs11
 net-misc/curl http2
 net-misc/curl nss libssh2 -gnutls
 net-misc/iputils arping clockdiff rarpd tracepath
 net-misc/openssh -ldap
 net-p2p/bitcoin-cli knots
+net-p2p/bitcoin-core -berkdb -qrcode
 sys-apps/systemd policykit
 sys-apps/util-linux static-libs
-sys-boot/grub libzfs
 sys-boot/grub mount
 sys-devel/binutils pgo -gold
 sys-devel/clang-common default-lld default-compiler-rt default-libcxx
