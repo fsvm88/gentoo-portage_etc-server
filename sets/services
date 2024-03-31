@@ -1,4 +1,5 @@
 app-admin/apache-tools
+app-antivirus/clamav
 net-irc/weechat
 net-misc/chrony
 net-p2p/bitcoin-cli

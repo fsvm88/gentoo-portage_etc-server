@@ -8,6 +8,6 @@
 <net-libs/stem-1.9
 <net-misc/nyx-2.5
 <sys-apps/systemd-256
-<sys-kernel/gentoo-sources-6.8
+<sys-kernel/gentoo-sources-6.9
 <sys-kernel/linux-firmware-20231231
 <sys-kernel/linux-headers-6.7

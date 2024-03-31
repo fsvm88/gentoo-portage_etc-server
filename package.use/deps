@@ -1,3 +1,4 @@
+app-arch/xz-utils static-libs
 app-emulation/qemu gnutls spice
 app-emulation/virtualbox dbus opengl -gui
 app-eselect/eselect-php fpm
