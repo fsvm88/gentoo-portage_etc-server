@@ -1,7 +1,7 @@
-# move sys-devel/gdb dev-debug/gdb
 dev-debug/gdb
 dev-python/virtualenv
 dev-util/perf
+dev-util/shellcheck-bin
 dev-vcs/git
 dev-vcs/tig
 sys-libs/libfaketime
