@@ -12,7 +12,6 @@ dev-util/ccache
 net-ftp/ncftp
 sys-apps/dstat
 sys-apps/hdparm
-sys-apps/irqbalance
 sys-apps/mlocate
 sys-apps/pciutils
 sys-apps/smartmontools
