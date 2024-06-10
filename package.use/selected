@@ -1,4 +1,3 @@
-# move dev-util/strace dev-debug/strace
 app-backup/btrbk doc
 app-containers/lxc cgmanager
 app-editors/vim python
@@ -8,6 +7,7 @@ dev-db/mysql -berkdb
 dev-debug/strace -unwind
 dev-lang/rust clang nightly parallel-compiler rust-src
 dev-util/catalyst ccache system-bootloader
+# move dev-util/strace dev-debug/strace
 net-analyzer/nmap ncat ndiff nmap-update nping
 net-firewall/iptables nftables
 net-fs/nfs-utils nfsdcld nfsv41
@@ -25,6 +25,7 @@ sys-boot/grub device-mapper
 sys-devel/clang llvm-libunwind
 sys-devel/llvm clang udis86
 sys-firmware/intel-microcode hostonly monolithic
+sys-fs/btrfs-progs -convert
 sys-process/htop oom
 sys-process/lsof rpc
 www-servers/nginx aio libatomic pcre-jit
