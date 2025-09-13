@@ -9,8 +9,8 @@ app-shells/bash-completion
 app-shells/fish
 dev-debug/strace
 dev-util/ccache
-# move dev-util/strace dev-debug/strace
 net-ftp/ncftp
+sys-apps/dbus-broker
 sys-apps/dstat
 sys-apps/hdparm
 sys-apps/mlocate
@@ -18,7 +18,7 @@ sys-apps/pciutils
 sys-apps/smartmontools
 sys-boot/grub
 sys-firmware/intel-microcode
-sys-kernel/genkernel
+sys-kernel/dracut
 sys-kernel/installkernel
 sys-kernel/linux-firmware
 sys-process/fcron

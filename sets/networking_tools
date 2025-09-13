@@ -8,11 +8,11 @@ net-analyzer/traceroute
 net-dns/bind-tools
 net-firewall/conntrack-tools
 net-firewall/iptables
+net-firewall/nftables
 net-ftp/lftp
 net-misc/chrony
 net-misc/iperf
 net-misc/netkit-telnetd
-net-misc/nyx
 net-misc/whois
 net-proxy/tsocks
 net-vpn/tor

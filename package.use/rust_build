@@ -1,3 +1,5 @@
-sys-libs/libcxxabi static-libs
-sys-libs/libcxx static-libs
+llvm-runtimes/libcxxabi static-libs
+llvm-runtimes/libcxx static-libs
+# move sys-libs/libcxxabi llvm-runtimes/libcxxabi
+# move sys-libs/libcxx llvm-runtimes/libcxx
 sys-libs/llvm-libunwind static-libs

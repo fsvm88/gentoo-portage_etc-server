@@ -8,37 +8,43 @@ dev-db/sqlite secure-delete
 dev-lang/php bcmath calendar curlwrappers filter fpm gmp hash json mhash mysqli pdo sharedext soap simplexml wddx xmlreader xmlwriter xsl embed
 dev-lang/python lto sqlite
 dev-lang/rust-bin rustfmt
-dev-lang/rust clippy rls rustfmt system-bootstrap -system-llvm
+dev-lang/rust clippy rls rustfmt system-bootstrap lto system-llvm
 dev-libs/boost python
 dev-libs/leveldb -snappy
 dev-libs/libpcre2 pcre32
 dev-libs/libpcre jit
 dev-libs/libusb udev
 dev-perl/DBD-mysql mysql
+dev-qt/qtbase opengl wayland
+dev-qt/qttools opengl
 dev-util/google-perftools largepages
+llvm-core/clang-common default-lld default-compiler-rt default-libcxx
+llvm-runtimes/clang-runtime crt libcxx
+llvm-runtimes/clang-runtime default-compiler-rt default-lld default-libcxx
 mail-filter/procmail mbox
 mail-mta/postfix mbox
 media-libs/libglvnd X
 media-libs/libpng apng
 media-libs/libsdl X
 media-libs/mesa X
+# move llvm-core/clang-runtime llvm-runtimes/clang-runtime
+# move sys-devel/clang-common llvm-core/clang-common
+# move sys-devel/clang-runtime llvm-core/clang-runtime
 net-dns/dnsmasq script
 net-libs/gnutls tools pkcs11
 net-misc/curl http2
 net-misc/curl nss libssh2 -gnutls
 net-misc/iputils arping clockdiff rarpd tracepath
 net-misc/openssh -ldap
-net-p2p/bitcoin-cli knots
 net-p2p/bitcoin-core -berkdb -qrcode
 sys-apps/systemd policykit
 sys-apps/util-linux static-libs
 sys-boot/grub mount
 sys-devel/binutils pgo -gold
-sys-devel/clang-common default-lld default-compiler-rt default-libcxx
-sys-devel/clang-runtime crt libcxx
 sys-devel/gcc default-stack-clash-protection default-znow fortran graphite lto
 sys-fs/lvm2 thin lvm
 sys-fs/quota netlink
+sys-kernel/installkernel dracut grub
 sys-libs/libseccomp static-libs
 sys-libs/libunwind libatomic
 sys-libs/libunwind static-libs

@@ -9,6 +9,7 @@ sys-block/fio
 sys-fs/btrfs-progs
 sys-fs/ddrescue
 sys-fs/dosfstools
+sys-fs/duperemove
 sys-fs/mdadm
 sys-fs/ncdu
 sys-fs/squashfs-tools
